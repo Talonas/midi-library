@@ -110,6 +110,7 @@ midi_send_message(struct midi *midi, unsigned char *msg, uint8_t msg_size)
 	{
 		goto done;
 	}
+
 	if (midi->serial_write == NULL)
 	{
 		goto done;
